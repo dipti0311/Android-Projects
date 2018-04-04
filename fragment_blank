@@ -1,0 +1,234 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.amazonprimeapp.BlankFragment"
+    android:background="#000000">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:weightSum="1"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="All Videos"
+                android:textColor="#ffad02"
+                android:layout_marginTop="50dp"
+                android:id="@+id/all"
+                />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="Your Videos"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"
+                android:id="@+id/yourvideo"
+                android:layout_toRightOf="@+id/all"
+                android:paddingLeft="3dp"
+                />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:layout_marginLeft="3dp"
+                android:text="Included with Prime"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"
+                android:id="@+id/prime"
+                android:layout_toRightOf="@+id/yourvideo"
+                android:paddingLeft="3dp"
+                />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="Channel"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"
+                android:id="@+id/channel"
+                android:layout_toRightOf="@+id/prime"
+                android:paddingLeft="3dp"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch Next"
+        android:layout_marginTop="110dp"
+        android:background="#585757"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#585757"
+            android:weightSum="1"
+            android:layout_marginTop="140dp"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/grandtour"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+
+                android:background="@drawable/man"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/downtown"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/red"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/tycoon"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/lore"
+                android:padding="10dp" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+
+                android:background="@drawable/tooold"
+                android:padding="10dp"
+                android:layout_weight="0.12" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Channels"
+        android:layout_marginTop="320dp"
+        android:background="#585757"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+
+        />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#585757"
+            android:weightSum="1"
+            android:layout_marginTop="350dp"
+            >
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/hbo1"
+                android:padding="10dp"
+                android:layout_weight="77.67" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/star"
+                android:padding="10dp"
+                android:layout_weight="77.67" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
